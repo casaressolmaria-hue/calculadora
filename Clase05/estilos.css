@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: system-ui; 
+}
+
+.contenedor {
+  padding: 0.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  max-width: 400px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.campo {
+  padding: 0.5rem;
+}
+
+fieldset {
+  border-radius: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #0275d8;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  background-color: #025aa5;
+}
